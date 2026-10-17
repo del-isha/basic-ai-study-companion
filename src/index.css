@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Lora", ui-serif, Georgia, serif;
+  --font-display: "Lora", ui-serif, Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  
+  /* Custom overrides for default colors to match Natural Tones theme */
+  --color-indigo-50: #F1EDE4;
+  --color-indigo-100: #E8E2D9;
+  --color-indigo-200: #C4B7A6;
+  --color-indigo-500: #8BA888;
+  --color-indigo-600: #8BA888;
+  --color-indigo-700: #7A9777;
+  --color-indigo-800: #3D5A3A;
+  --color-indigo-900: #3D5A3A;
+
+  --color-emerald-50: #DEE5DC;
+  --color-emerald-100: #DEE5DC;
+  --color-emerald-500: #5D805A;
+  --color-emerald-600: #5D805A;
+  --color-emerald-700: #3D5A3A;
+
+  --color-orange-50: #F1EDE4;
+  --color-orange-100: #E8E2D9;
+  --color-orange-500: #D69E88;
+  --color-orange-600: #D69E88;
+
+  --color-slate-50: #F9F7F2;
+  --color-slate-100: #E8E2D9;
+  --color-slate-200: #E8E2D9;
+  --color-slate-300: #C4B7A6;
+  --color-slate-400: #8C857E;
+  --color-slate-500: #8C857E;
+  --color-slate-600: #6B645D;
+  --color-slate-700: #4A443F;
+  --color-slate-800: #4A443F;
+  --color-slate-900: #3D5A3A;
+  --color-slate-950: #3D5A3A;
+
+  --color-gray-50: #F9F7F2;
+  --color-gray-100: #E8E2D9;
+  --color-gray-200: #E8E2D9;
+  --color-gray-300: #C4B7A6;
+  --color-gray-400: #8C857E;
+  --color-gray-500: #8C857E;
+  --color-gray-600: #6B645D;
+  --color-gray-700: #4A443F;
+  --color-gray-800: #4A443F;
+  --color-gray-900: #3D5A3A;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F9F7F2;
+  color: #4A443F;
+}
+
+/* Custom Scrollbar Styles */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

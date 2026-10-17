@@ -1,0 +1,6 @@
+{
+  "name": "AI Study Companion & Virtual Groups",
+  "description": "An AI study companion that generates personalized flashcards and quizzes, featuring virtual study rooms for real-time collaboration, motivational reminders, and progress tracking dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
